@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+}
+
+.main {
+    display: flex;
+}
+
+/* Banner lateral */
+.user-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 1. Perfil */
+.my-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-color: rgb(190, 193, 187);
+    border-style: solid;
+    border-width: 0 1.8px 0 0;
+    width: 300px;
+    height: 75px;
+}
+
+.basic-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-profile {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1em 0 1em 0;
+    border-radius: 50%;
+    border-color: rgb(190, 193, 187);
+    border-style: solid;
+    border-width: 1.8px;
+    margin: 0;
+}
+
+.prof-info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.prof-info p {
+    margin: 0 0 0 0;
+    padding-left: 16px;
+    width: 120px;
+}
+
+.active {
+    font-size: 12px;
+    margin: 0 0 0 0;
+    padding-left: 16px;
+    width: 170px;
+    color:  #BEC1BB;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i {
+    padding: 0 0.5em;
+    color: #BEC1BB;
+}
+
+/* 2. Agregar nuevo chat */
+.new-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 1.8px 1.8px 0 0;
+    width: 300px;
+    height: 140px;
+}
+
+.button {
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    font-size: 16px;
+    height: 50px;
+    width: 200px;
+  }
+
+/* 3. Otros contactos */
+.others {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 1.8px 1.8px 0 0;
+    width: 300px;
+    height: 90px;
+}
+
+.others-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 1.8px 1.8px 0 0;
+    width: 300px;
+    height: 90px;
+}
+
+.pic-others {
+    width: 3.5em;
+    height: 3.5em;
+    margin: 1em 0 1em 0;
+    border-radius: 50%;
+    border-color: #BEC1BB;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0;
+}
+
+.others-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.others-info p {
+    margin: 0 0 0 0;
+    padding-left: 1em;
+    width: 170px;
+}
+
+.other-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+}
+
+
+/* Contenido a la derecha */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    width: 80%;
+}
+
+.content img {
+    width: 22%;
+    height: auto;
+    margin-top: 220px;
+}
+
+.content-title {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.content-detail {
+    width: 540px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+.content b {
+    font-weight:550;
+}
